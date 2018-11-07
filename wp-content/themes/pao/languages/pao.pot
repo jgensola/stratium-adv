@@ -1,0 +1,560 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pao\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-23 14:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: footer.php:74
+msgid " &copy;"
+msgstr ""
+
+#. %s: title of menu item which is invalid
+#: include/custom-menu.php:134
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. %s: title of menu item in draft status
+#: include/custom-menu.php:138
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: comments.php:28
+msgid "&larr; older comments"
+msgstr ""
+
+#: include/helper-functions.php:290
+msgid "(Edit)"
+msgstr ""
+
+#: 404.php:28
+msgid "404"
+msgstr ""
+
+#: 404.php:23
+msgid "404 image"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"A stunning visual experience for minimal loving creative. This template is a "
+"responsive and retina-ready WordPress theme with grid system layout. It is "
+"optimized for mobile touch and swipe."
+msgstr ""
+
+#: include/actions-config.php:440
+msgid "ACCEPT"
+msgstr ""
+
+#: include/actions-config.php:420
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/helper-functions.php:940
+msgid "Ajax error"
+msgstr ""
+
+#: include/actions-config.php:423
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: include/helper-functions.php:158
+msgid "Appearance &gt; Menus"
+msgstr ""
+
+#: include/actions-config.php:419
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: index.php:18 archive.php:14
+msgid "blog"
+msgstr ""
+
+#: single.php:59
+msgid "by "
+msgstr ""
+
+#: comments.php:52 include/custom-menu.php:273
+msgid "Cancel"
+msgstr ""
+
+#: single-portfolio.php:139 single-portfolio.php:297 single-portfolio.php:435
+#: single-portfolio.php:760
+msgid "Category"
+msgstr ""
+
+#: single-portfolio.php:76 single-portfolio.php:135 single-portfolio.php:224
+#: single-portfolio.php:301 single-portfolio.php:439 single-portfolio.php:557
+#: single-portfolio.php:752
+msgid "Clients"
+msgstr ""
+
+#: template-parts/menu/menu-full.php:60
+#: template-parts/menu/menu-static_aside.php:48
+msgid "close"
+msgstr ""
+
+#: comments.php:26
+msgid "comment navigation"
+msgstr ""
+
+#: category.php:109 archive.php:110
+msgid "Comments"
+msgstr ""
+
+#: comments.php:19
+#, php-format
+msgctxt "comments"
+msgid "1 comment"
+msgid_plural "<span class=\"count\">%1$s comments</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/actions-config.php:331
+msgid "Contact Form 7"
+msgstr ""
+
+#: include/custom-menu.php:217
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: single-portfolio.php:72 single-portfolio.php:131 single-portfolio.php:220
+#: single-portfolio.php:431 single-portfolio.php:553 single-portfolio.php:748
+msgid "Date"
+msgstr ""
+
+#: include/custom-menu.php:229
+msgid "Description"
+msgstr ""
+
+#: single-portfolio.php:528
+msgid "dotts"
+msgstr ""
+
+#: include/custom-menu.php:239
+msgid "Down one"
+msgstr ""
+
+#: include/actions-config.php:49
+msgid "Drag the widgets for sidebars."
+msgstr ""
+
+#: include/helper-functions.php:1043
+msgid "Dribbble"
+msgstr ""
+
+#: include/custom-menu.php:183
+msgid "Edit"
+msgstr ""
+
+#: include/custom-menu.php:183
+msgid "Edit menu item"
+msgstr ""
+
+#: 404.php:44 searchform.php:4
+msgid "enter keyword"
+msgstr ""
+
+#: include/actions-config.php:439
+msgid "ENTER PASSWORD BELOW:"
+msgstr ""
+
+#: include/helper-functions.php:916
+msgid "Enter search Keyword"
+msgstr ""
+
+#: include/helper-functions.php:1014
+msgid "Extra profile information"
+msgstr ""
+
+#: include/helper-functions.php:1027
+msgid "Facebook"
+msgstr ""
+
+#: 404.php:10
+msgid "Go home"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by chosen font(s), translate this to 'off'. Do not translate into your own language.
+#: include/actions-config.php:78
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#. URI of the theme
+msgid "http://wp.themedemo.co/pao/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/truethemes"
+msgstr ""
+
+#: include/actions-config.php:363
+msgid "Image Map Pro"
+msgstr ""
+
+#: include/helper-functions.php:1035
+msgid "Instagram"
+msgstr ""
+
+#: include/actions-config.php:399
+msgid "Install Plugins"
+msgstr ""
+
+#: include/actions-config.php:398
+msgid "Install Required Plugins"
+msgstr ""
+
+#: include/actions-config.php:400
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: comments.php:51
+#, php-format
+msgid "Leave a reply to %s"
+msgstr ""
+
+#: single.php:116
+msgid "Like"
+msgstr ""
+
+#: include/custom-menu.php:223
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: category.php:130 index.php:169 archive.php:131
+msgid "Load More"
+msgstr ""
+
+#: include/custom-menu.php:251
+msgid "Mega Menu style"
+msgstr ""
+
+#: include/custom-menu.php:237
+msgid "Move"
+msgstr ""
+
+#: include/custom-menu.php:179
+msgid "Move down"
+msgstr ""
+
+#: include/custom-menu.php:166
+msgid "Move up"
+msgstr ""
+
+#: include/custom-menu.php:199
+msgid "Navigation Label"
+msgstr ""
+
+#: comments.php:29
+msgid "newer comments &rarr;"
+msgstr ""
+
+#: single.php:230
+msgid "Next post"
+msgstr ""
+
+#: include/custom-menu.php:212
+msgid "Open link in a new tab"
+msgstr ""
+
+#: include/custom-menu.php:259
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: include/actions-config.php:262
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: category.php:96 index.php:137 archive.php:97 single.php:103 page.php:41
+msgid "Page:"
+msgstr ""
+
+#. Name of the theme
+msgid "Pao"
+msgstr ""
+
+#: include/actions-config.php:278
+msgid "Pao Plugins"
+msgstr ""
+
+#: include/actions-config.php:473
+#, php-format
+msgid ""
+"Pao theme needs minimal WordPress version 4.3 and PHP 5.3<br>You are running "
+"version WordPress - %s, PHP - %s.<br>Please upgrade need module and try "
+"again."
+msgstr ""
+
+#: include/actions-config.php:440
+msgid "Password:"
+msgstr ""
+
+#: include/helper-functions.php:289
+msgid "Pingback:"
+msgstr ""
+
+#: include/helper-functions.php:1047
+msgid "Please enter your Dribbble profile link."
+msgstr ""
+
+#: include/helper-functions.php:1031
+msgid "Please enter your Facebook profile link."
+msgstr ""
+
+#: include/helper-functions.php:1039
+msgid "Please enter your Instagram profile link."
+msgstr ""
+
+#: include/helper-functions.php:1023
+msgid "Please enter your Twitter profile link."
+msgstr ""
+
+#: include/helper-functions.php:158
+msgid "Please register Top Navigation from"
+msgstr ""
+
+#: include/actions-config.php:422
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: single.php:216
+msgid "Previous post"
+msgstr ""
+
+#: functions.php:30
+msgid "Primary menu"
+msgstr ""
+
+#: include/custom-menu.php:272
+msgid "Remove"
+msgstr ""
+
+#: include/helper-functions.php:318
+msgid "Reply"
+msgstr ""
+
+#: index.php:60
+msgid "result found"
+msgstr ""
+
+#: index.php:60
+msgid "results found"
+msgstr ""
+
+#: include/actions-config.php:421
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: searchform.php:5
+msgid "search"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for: "
+msgstr ""
+
+#: comments.php:53
+msgid "Send Message"
+msgstr ""
+
+#: single-portfolio.php:305
+msgid "Share"
+msgstr ""
+
+#: include/helper-functions.php:626
+msgid "Share:"
+msgstr ""
+
+#: include/actions-config.php:44
+msgid "Sidebar"
+msgstr ""
+
+#: include/actions-config.php:402
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: include/actions-config.php:413
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/actions-config.php:407
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/actions-config.php:417
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: category.php:149 index.php:180 archive.php:150
+msgid "sorry, no posts matched your criteria."
+msgstr ""
+
+#: include/custom-menu.php:151
+msgid "sub item"
+msgstr ""
+
+#: include/actions-config.php:440
+msgid "Submit"
+msgstr ""
+
+#: single-portfolio.php:80 single-portfolio.php:228 single-portfolio.php:561
+#: single-portfolio.php:756
+msgid "Tags"
+msgstr ""
+
+#: include/custom-menu.php:231
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: include/actions-config.php:415
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/actions-config.php:411
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/actions-config.php:409
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/actions-config.php:313
+msgid "The Grid"
+msgstr ""
+
+#: include/actions-config.php:405
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/actions-config.php:403
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/custom-menu.php:205
+msgid "Title Attribute"
+msgstr ""
+
+#: include/custom-menu.php:242
+msgid "To the top"
+msgstr ""
+
+#. Author of the theme
+msgid "TrueThemes"
+msgstr ""
+
+#: include/helper-functions.php:1019
+msgid "Twitter"
+msgstr ""
+
+#: include/custom-menu.php:238
+msgid "Up one"
+msgstr ""
+
+#: include/actions-config.php:347
+msgid "UpQode Google Maps"
+msgstr ""
+
+#: include/custom-menu.php:192
+msgid "URL"
+msgstr ""
+
+#: category.php:70 index.php:111 archive.php:71
+msgid "view more"
+msgstr ""
+
+#: include/actions-config.php:295
+msgid "Visual Composer"
+msgstr ""
+
+#: comments.php:50
+msgid "Write a comment"
+msgstr ""
+
+#: single.php:90
+msgid "Written by: "
+msgstr ""
+
+#: include/actions-config.php:490
+msgid "Your \"Coming Soon\" option is enabled now."
+msgstr ""
+
+#: comments.php:45
+msgid "your comment"
+msgstr ""
+
+#: comments.php:38
+msgid "your email"
+msgstr ""
+
+#: comments.php:37
+msgid "your name"
+msgstr ""

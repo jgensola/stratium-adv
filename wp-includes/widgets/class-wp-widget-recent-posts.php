@@ -91,10 +91,17 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 				$title      = ( ! empty( $post_title ) ) ? $post_title : __( '(no title)' );
 				?>
 				<li>
-					<a href="<?php the_permalink( $recent_post->ID ); ?>"><?php echo $title ; ?></a>
-					<?php if ( $show_date ) : ?>
-						<span class="post-date"><?php echo get_the_date( '', $recent_post->ID ); ?></span>
-					<?php endif; ?>
+                    <div class="text">
+                    <?php if ( $show_date ) : ?>
+                        <span class="post-date"><?php echo get_the_date( '', $recent_post->ID ); ?></span>
+                    <?php endif; ?>
+                        <h3><?php echo $title ; ?></h3>
+					<a href="<?php the_permalink( $recent_post->ID ); ?>" title="Read Article" class="circular-button"><?php echo 'Read Article' ; ?></a>
+                    </div>
+                    <?php if (has_post_thumbnail( $recent_post->ID ) ): ?>
+                        <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $recent_post->ID ), 'single-post-thumbnail' ); ?>
+                        <div class="blog-thumbnail" style="background-image: url('<?php echo $image[0]; ?>');">
+                    <?php endif; ?>
 				</li>
 			<?php endforeach; ?>
 		</ul>

@@ -1,0 +1,88 @@
+.tg-pao-resume a:not([class*="tg-element-"]),
+.tg-pao-resume a:not([class*="tg-element-"]):active,
+.tg-pao-resume a:not([class*="tg-element-"]):focus,
+.tg-pao-resume [class*="tg-element-"] *:not(del) {
+	margin: 0;
+	padding: 0;
+	color: inherit !important;
+	text-align: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.tg-pao-resume [class*="tg-element-"],
+.tg-pao-resume .tg-item-overlay,
+.tg-pao-resume .tg-center-holder,
+.tg-pao-resume .tg-center-inner > * {
+	vertical-align: middle;
+}
+.tg-pao-resume .tg-element-1 {
+	position: relative;
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 0.2px;
+	display: block;
+	margin: 0;
+	padding: 8px 0;
+}
+.tg-pao-resume .tg-element-2 {
+	position: relative;
+	font-size: 15px;
+	line-height: 18px;
+	color: #ffffff !important;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 0.2px;
+	display: block;
+}
+.tg-pao-resume .tg-element-2 .tg-item-term {
+	position: relative;
+	display: inline-block;
+}
+.tg-pao-resume .tg-item-media-content {
+	background-image: linear-gradient(271deg, #ffcf6d, #fd8558);
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .35s ease, visibility .35s ease;
+}
+.tg-pao-resume:hover .tg-item-media-content {
+	opacity: 1;
+	visibility: visible;
+}
+.tg-pao-resume .title {
+	font-family: "Poppins", sans-serif;
+	transition: all .3s cubic-bezier(.7,.01,.31,.78);
+	position: relative;
+}
+.tg-pao-resume .category {
+	font-family: "Poppins", sans-serif;
+	transition: all .3s cubic-bezier(.7,.01,.31,.78);
+	position: relative;
+}
+.tg-pao-resume .tg-item-media-content .title {
+	top: 20px;
+}
+.tg-pao-resume:hover .tg-center-inner .category {
+	top: 0;
+}
+.tg-pao-resume:hover .tg-center-inner .title {
+	top: 0;
+}
+.tg-pao-resume .tg-item-media-content .category {
+	transition-delay: 50ms;
+	top: 24px;
+}
