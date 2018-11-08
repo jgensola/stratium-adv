@@ -1,0 +1,148 @@
+@{advercom-pages} {
+    .header_top_bg {
+        z-index: 100;
+
+        background: @nero;
+
+        .right-menu {
+            text-align: center;
+
+            .logo {
+                display: block;
+
+                width: 200px;
+                margin: auto;
+
+                span {
+                    color: @white;
+
+                    font-family: @secondary-font;
+                    text-transform: lowercase;
+                    text-align: center;
+                    font-weight: 500;
+
+                    i {
+                        color: @golden-fizz;
+
+                        font-style: normal;
+                    }
+                }
+            }
+        }
+
+        #topmenu {
+            display: block !important;
+            padding: 0 20px;
+
+            background: lighten(@nero, 5%);
+
+            a {
+                color: @white;
+
+                font-family: @primary-font-bold;
+            }
+
+            ul.menu {
+                background: none;
+
+                li {
+                    a {
+                        padding: 10px 20px;
+
+                        color: @white;
+
+                        text-transform: lowercase;
+                        font-family: @primary-font-bold;
+                        font-size: 16px;
+                        font-weight: 500;
+                        letter-spacing: normal;
+
+                        &:before {
+                            width: 100%;
+                        }
+
+                        &:hover {
+                            color: @golden-fizz;
+                        }
+                    }
+
+                    &.current-menu-item a {
+                        color: @golden-fizz;
+                    }
+                }
+            }
+        }
+
+        // Screens >= 992
+        @media only screen  and (min-width: @screen__sl) {
+            position: fixed;
+
+            width: 100%;
+
+            .right-menu.left {
+                padding: 0;
+
+                .flex-display();
+                .flex-direction(column);
+                .align-items(center);
+
+                .logo {
+                    width: auto;
+
+                    span {
+                        padding: 6px;
+
+                        font-size: 50px;
+                    }
+                }
+
+                #topmenu {
+                    padding: 0 15px !important;
+
+                    .menu > li {
+                        padding: 1px 0;
+
+                        a {
+                            padding: 10px 0;
+                        }
+
+                        // Contact Us in Navigation
+                        //&:last-of-type {
+                        //    position: absolute;
+                        //    right: 0;
+                        //
+                        //    a {
+                        //        margin-right: 0;
+                        //    }
+                        //}
+                    }
+                }
+            }
+
+            .col-xs-12 {
+                padding: 0;
+            }
+
+            #menu-main-navigation {
+                display: block;
+                position: relative;
+
+                width: 100%;
+                max-width: @max-page-width - 30px;
+                margin: auto;
+
+                //text-align: left;
+                text-align: center;
+            }
+        }
+    }
+}
+
+// IE Pages
+@{ie-pages} {
+    .header_top_bg {
+        .right-menu .logo {
+            margin-bottom: -1%;
+        }
+    }
+}

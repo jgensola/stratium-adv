@@ -1,0 +1,151 @@
+.page {
+    .contact-form {
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px 15px;
+            border: none;
+
+            font-size: 16px;
+
+            &.wpcf7-not-valid {
+                border: 1px solid @persian-red;
+            }
+        }
+
+        span.wpcf7-not-valid-tip {
+            margin-top: .8em;
+
+            color: @persian-red;
+
+            font-size: .8em;
+        }
+
+        div.wpcf7-response-output {
+            margin: 0 0 15px;
+            padding: 15px;
+            border: none;
+
+            color: @white;
+            background: @persian-red;
+
+        }
+
+        div.wpcf7 .ajax-loader {
+            display: none;
+
+            height: 15px;
+            margin: 12px auto 0;
+
+            background: url('@{image-path}advercom/main-loader.gif') no-repeat center;
+            background-size: contain;
+
+            &.is-active {
+                display: block;
+            }
+        }
+
+        .wpcf7-form > p:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    .contact-details {
+        display: none;
+
+        .contact-detail {
+            margin-bottom: 20px;
+        }
+
+        .contact-title {
+            margin-bottom: 10px;
+
+            color: @white;
+
+            font-size: 22px;
+        }
+
+        .address:before,
+        .facebook:before {
+            height: 30px;
+            width: 30px;
+            margin-right: 15px;
+        }
+
+        .phone-number:before ,
+        .email:before {
+            height: 30px;
+            width: 30px;
+            margin-right: 15px;
+
+            background: @white;
+            color: @nero;
+        }
+    }
+
+    // Screens >= 768
+    @media only screen  and (min-width: @screen__m) {
+        .contact-form {
+            .form-fields {
+                .flex-display();
+                .flex-wrap(wrap);
+
+                p {
+                    width: 50%;
+                    margin-bottom: 15px;
+
+                    &:nth-of-type(1),
+                    &:nth-of-type(3) {
+                        padding-right: 7.5px;
+                    }
+
+                    &:nth-of-type(2),
+                    &:nth-of-type(4) {
+                        padding-left: 7.5px;
+                    }
+                }
+            }
+
+            .wpcf7-form > p:first-of-type {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    // Screens >= 992
+    @media only screen  and (min-width: @screen__sl) {
+        .contact-us > .vc_column_container > .vc_column-inner  > .wpb_wrapper {
+            .flex-display();
+            .flex-wrap(wrap);
+
+            > .wpb_text_column {
+                width: 100%;
+            }
+
+            .contact-details-wrapper {
+                width: 30%;
+            }
+
+            .contact-form-wrapper {
+                width: 70%;
+                margin: 0 0 0 30px;
+
+                .vc_column-inner {
+                    padding: 0;
+                }
+            }
+        }
+
+        .contact-details {
+            display: block;
+
+            .contact-detail {
+                margin-bottom: 45px;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+            }
+    }
+}
